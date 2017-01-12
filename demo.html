@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>LeafLet DEMO</title>
+<title>BaiduTileLayer</title>
 <link rel="stylesheet" type="text/css" href="leaflet/leaflet.css">
 <style>
 #map { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
@@ -15,7 +15,9 @@
 <script>
 L.map('map', { crs: L.CRS.BaiduCRS, minZoom: 3 })
   .setView([30, 120.2], 12)
-  .addLayer(new L.BaiduTileLayer())
+  .addLayer(new L.BaiduTileLayer(null, {
+  	attribution: '<a href="https://github.com/luobotang/leaflet-baidu-tile-layer">BaiduTileLayer</a>'
+  }))
 </script>
 </body>
 </html>
