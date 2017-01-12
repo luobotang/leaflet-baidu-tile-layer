@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-baidu-tile-layer",
+  "version": "0.1.0",
+  "description": "A new TileLayer Type for use BaiduMap (http://map.baidu.com/) as tile source in LeafLet.",
+  "main": "baidu-tile-layer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luobotang/leaflet-baidu-tile-layer.git"
+  },
+  "keywords": [
+    "LeafLet",
+    "BaiduMap",
+    "TileLayer"
+  ],
+  "author": "luobotang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luobotang/leaflet-baidu-tile-layer/issues"
+  },
+  "homepage": "https://github.com/luobotang/leaflet-baidu-tile-layer#readme"
+}
